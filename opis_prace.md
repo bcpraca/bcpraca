@@ -1,7 +1,7 @@
 
-# Návrh funkcionality aplikácie pre bezpečné outdoorové aktivity
+# Apikácia pre bezpečné outdoorové aktivity by Tom. Muc.
 
-## 📌 FUNKCIONALITA 
+## 📌 NÁVRH FUNKCIONALITY  
 
 ---
 
