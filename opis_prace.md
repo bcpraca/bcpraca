@@ -45,7 +45,7 @@
 - **Obsah:** Preventívne rady, obranné stratégie, správanie pri útoku.
 ---
 
-### 7. Záznam trás + export do GPX + + rozšírené varovania a odporúčania
+### 7. Trasovanie, Záznam trás + export do GPX + + rozšírené varovania a odporúčania
 - **Funkcia:** Ukladanie, trasovanie pohybu, export do GPX pre zariadenia ako Garmin navigácia.
 - **Rozšírenia:**
   - Zobrazenie varovaní pozdĺž naplánovanej trasy na základe:
@@ -65,7 +65,7 @@
 ---    
 
 ### 8. Mapy s označením rizikových úsekov + spája sa s bodom 7
-- **Funkcia:** Vizualizácia trás + varovania (lavíny, zlý terén, zlé počasie).
+- **Funkcia:** Vizualizácia plánovaných trás + varovania (lavíny, zlý terén, zlé počasie).
 ---
 
 ### 9. Počasie a meteorologické upozornenia + spája sa s bodom 7
