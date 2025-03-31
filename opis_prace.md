@@ -99,7 +99,7 @@
 - **Implementačný status:** **Odstránený bod po konzultácií**
 ---
 
-### 13. Vzdelávací modul (CHKO, fauna, flóra)
+### 14. Vzdelávací modul (CHKO, fauna, flóra)
 - **Funkcia:** Zobrazuje edukačný obsah o prírode podľa aktuálnej polohy používateľa – zameraný na CHKO, miestnu faunu a flóru.
 #### Obsah:
 - Informácie o chránených druhoch, rastlinách, zvieratách, typoch lesa.
@@ -113,7 +113,7 @@
 - **Implementačný status:** **Voliteľné do BP**
 ---
 
-### 14. Výzvy a súťaže medzi používateľmi nadväzuje na bod 14
+### 15. Výzvy a súťaže medzi používateľmi nadväzuje na bod 14
 - **Funkcia:** Gamifikácia – napr. „nachoď 10 km“, porovnávanie výkonov.
 - **Implementačný status:** **Voliteľné do BP**
 
