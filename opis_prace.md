@@ -8,9 +8,6 @@
 ### 1. AI prvá pomoc + rozpoznávanie symptómov + nadväzuje na bod 7
 - **Funkcia:** Diagnostika na základe popisu symptómov alebo analýzy z kamery, vec post-bakalárskych updatov, kvôli náročnosti ako sme sa bavili počas konzultácie.
 – AI na základe používateľského profilu (vek, pohlavie, skúsenosti, fyzická kondícia, prípadné zdravotné obmedzenia – napr. astma, tlak, diabetes)  vyhodnotí vhodnosť plánovanej trasy alebo aktivity.
--
-- **Implementačný status:** **Post-BP-upddates**
-
 ---
 
 ### 2. SOS funkcia s GPS polohou
@@ -20,13 +17,12 @@
     Napr. „Padnutý strom blokuje chodník.“ - hlásenie by sa viazalo na GPS polohu a trasu.
     Možnosť vybrať typ incidentu na štýl Waze (bezpečnostné riziko / prírodná prekážka / faunálne riziko).
     Tým by sa komunita stala aktívnym prvkom bezpečnosti a aplikácia sa dynamicky aktualizuje o reálne podmienky v teréne jedinečnosť totožne, ktorou disponuje waze.
-
 ---    
 
 ### 3. Detekcia pádu a automatické varovanie
 - **Funkcia:** AI analyzuje pohybové senzory telefónu na zistenie pádu.
-- **Implementačný status:** **Post-BP**
-
+**Náčrt funkcionality :**
+- AI analyzuje pohybové senzory (akcelerometer, gyroskop) na detekciu pádu a automaticky vyhodnotí, či došlo k nehode. V prípade nereagovania používateľa po dobu zvolenej časovej zložky napr. 30 sec. spustí SOS režim s odoslaním GPS polohy a aktivuje AI asistenciu.
 ---
 
 ### 4. Záchranný režim s AI asistenciou
@@ -36,22 +32,17 @@
 - „Zhlboka dýchajte, pokúste sa zastaviť krvácanie – nájdite lekárničku.“
 - „Vaša poloha bola zaznamenaná, pomoc je na ceste – zvoľte bezpečnú polohu.“
 - Znížime tým paniku, poskytuje konkrétne kroky v reálnom čase a zvyšuje šancu na správnu reakciu pri záchrane ľudského života.
-
 ---
 
 ### 5. Lokalizácia v CHKO (chránených krajinných oblastiach) + od tejto funckionality nadväzujú i nižšie uvedené 
 - **Funkcia:** Detekcia polohy používateľa v rámci CHKO pomocou GPS.
 - **Výstup:** Informácia o tom, v akom pásme sa nachádza a aké platia pravidlá.
 - **Stav fauny:** Zoznam potenciálne výskytových druhov (napr. medveď, vlk).
-- **Implementačný status:** **Jadro BP**
-
 ---
 
-### 6. Bezpečnostné upozornenia na výskyt nebezpečných živočíchov - nadväuje na bod 3 
+### 6. Bezpečnostné upozornenia na výskyt nebezpečných živočíchov - nadväuje na bod 5
 - **Funkcia:** Varovanie pred rizikom pri vstupe do nebezpečnej zóny.
 - **Obsah:** Preventívne rady, obranné stratégie, správanie pri útoku.
-- **Implementačný status:** **Jadro BP**
-
 ---
 
 ### 7. Záznam trás + export do GPX + + rozšírené varovania a odporúčania
@@ -75,26 +66,20 @@
 
 ### 8. Mapy s označením rizikových úsekov + spája sa s bodom 7
 - **Funkcia:** Vizualizácia trás + varovania (lavíny, zlý terén, zlé počasie).
-- **Implementačný status:** **Jadro BP**
-
 ---
 
 ### 9. Počasie a meteorologické upozornenia + spája sa s bodom 7
 - **Funkcia:** Získanie predpovede a varovania na základe lokality.
-- **Implementačný status:** **Voliteľné do BP**
-
 ---
 
 ### 10. Zoznam odporúčaného vybavenia podľa aktivity + spája sa s bodom 7
 - **Funkcia:** Automatické odporúčanie výbavy (napr. oblečenie, lekárnička).
-- **Implementačný status:** **Post-BP**
-
+- **Implementačný status:** **Voliteľné do BP**
 ---
 
 ### 11. Zdieľanie polohy so skupinou 
 - **Funkcia:** Real-time zobrazenie polohy priateľov/skupiny na mape.
 - **Implementačný status:** **Voliteľné do BP**
-
 ---
 
 ### 12. História výletov a export údajov + nadväzuje na bod 1 
@@ -106,15 +91,12 @@
 - „Zaznamenali sme prudký pokles energie po 2/3 trasy – odporúčame hydratáciu alebo vyšší kalorický príjem.“
 - Prepojenie s predchádzajúcimi výletmi: progresívna analýza výkonu a zlepšenia.
 **Na tento bod môže nadväzovať nami prediskutovaná na konzultácií funckionalita opísaná v bode 14**
-
 ---
 
--------------- Odstránený bod po konzultácií --------------
 ### 13. Monitorovanie vitálnych funkcií cez senzory telefónu
 - **Funkcia:** Využitie dostupných senzorov telefónu (napr. kamera + blesk, gyroskop) na sledovanie základných vitálnych funkcií ako tepová frekvencia.
 - **Poznámka:** Implementácia závisí od typu zariadenia a dostupnosti senzorov. Môže byť kombinovaná s AI na odhad stavu.
-- **Implementačný status:** **Voliteľné do BP / Post-BP – podľa komplexnosti.**
-
+- **Implementačný status:** **Odstránený bod po konzultácií**
 ---
 
 ### 13. Vzdelávací modul (CHKO, fauna, flóra)
@@ -129,12 +111,11 @@
 - Zvyšuje povedomie o prírode a podporuje ekologicky zodpovedné správanie.
 - Modul má nielen praktickú, ale aj vzdelávaciu funkciu – vhodné aj pre rodiny alebo školy.
 - **Implementačný status:** **Voliteľné do BP**
-
 ---
 
 ### 14. Výzvy a súťaže medzi používateľmi nadväzuje na bod 14
 - **Funkcia:** Gamifikácia – napr. „nachoď 10 km“, porovnávanie výkonov.
-- **Implementačný status:** **Post-BP**
+- **Implementačný status:** **Voliteľné do BP**
 
 ---
 
